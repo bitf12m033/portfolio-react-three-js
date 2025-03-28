@@ -29,7 +29,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import vinsuite from "./company/vinsuite.png";
+import offrs from "./company/offrs.png";
 export {
   logo,
   backend,
@@ -59,4 +60,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  vinsuite,
+  offrs,
 };
