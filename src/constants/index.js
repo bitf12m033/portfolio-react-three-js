@@ -198,20 +198,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Direct Mail Pro & Email Pro",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Real estate campaign applications built using ColdFusion and PHP, integrated with LOB.com API for automated direct mail and email campaigns. Features include automated campaign creation, process automation via scripts, and enhanced client engagement tools.",
       tags: [
         {
-          name: "react",
+          name: "coldfusion",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "php",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "lob-api",
           color: "pink-text-gradient",
         },
       ],
@@ -219,20 +219,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Lead and Deal Reporting System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A comprehensive reporting system built with Laravel and MySQL, integrating HubSpot API to fetch and analyze leads and deals data. Features include automated data synchronization, customizable reporting periods, and business insights generation.",
       tags: [
         {
-          name: "react",
+          name: "laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "hubspot-api",
           color: "pink-text-gradient",
         },
       ],
@@ -240,24 +240,66 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Shopify Store Migration",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Successfully migrated an e-commerce store from MSSQL Server to Shopify, handling complex data transfer including categories, products, variants, and attributes. Ensured data integrity and delivered a fully functional Shopify store.",
       tags: [
         {
-          name: "nextjs",
+          name: "php",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "liquid",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "data-migration",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "ATG Travels Web Application",
+      description:
+        "Support and development of a global travel web application, working with multiple technologies including Python for data processing, ColdFusion and PHP for web development, and complex SQL Server database operations.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "coldfusion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "php",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "PropertyLog",
+      description:
+        "A real estate management platform built with Laravel, MySQL, and JavaScript, enabling secure property history management for multiple users. Focuses on data security, privacy, and user-friendly interface design.",
+      tags: [
+        {
+          name: "laravel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
       source_code_link: "https://github.com/",
     },
   ];
